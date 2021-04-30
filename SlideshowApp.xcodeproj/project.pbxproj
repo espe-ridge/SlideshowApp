@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		630DEAD4263BE52D00114A23 /* blog1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 630DEAD3263BE52C00114A23 /* blog1.jpg */; };
+		630DEAD7263BE53C00114A23 /* blog2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 630DEAD6263BE53C00114A23 /* blog2.jpg */; };
+		630DEADA263BE54500114A23 /* blog3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 630DEAD9263BE54400114A23 /* blog3.jpg */; };
 		6396EB0E2629806300DA24CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6396EB0D2629806300DA24CD /* AppDelegate.swift */; };
 		6396EB102629806300DA24CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6396EB0F2629806300DA24CD /* SceneDelegate.swift */; };
 		6396EB122629806300DA24CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6396EB112629806300DA24CD /* ViewController.swift */; };
 		6396EB152629806300DA24CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6396EB132629806300DA24CD /* Main.storyboard */; };
 		6396EB172629806400DA24CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6396EB162629806400DA24CD /* Assets.xcassets */; };
 		6396EB1A2629806400DA24CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6396EB182629806400DA24CD /* LaunchScreen.storyboard */; };
+		CE3342192632B8010001CEB2 /* download.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CE3342162632B8010001CEB2 /* download.jpeg */; };
+		CE33421A2632B8010001CEB2 /* download (1).jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CE3342172632B8010001CEB2 /* download (1).jpeg */; };
+		CE33421B2632B8010001CEB2 /* download (2).jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CE3342182632B8010001CEB2 /* download (2).jpeg */; };
+		CEDDD0922637FEA500160268 /* ScaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDDD0912637FEA500160268 /* ScaleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		630DEAD3263BE52C00114A23 /* blog1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = blog1.jpg; path = "../../../../Dropbox/■PGM DENTAL画像素材■/blog1.jpg"; sourceTree = "<group>"; };
+		630DEAD6263BE53C00114A23 /* blog2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = blog2.jpg; path = "../../../../Dropbox/■PGM DENTAL画像素材■/blog2.jpg"; sourceTree = "<group>"; };
+		630DEAD9263BE54400114A23 /* blog3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = blog3.jpg; path = "../../../../Dropbox/■PGM DENTAL画像素材■/blog3.jpg"; sourceTree = "<group>"; };
 		6396EB0A2629806300DA24CD /* SlideshowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideshowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6396EB0D2629806300DA24CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6396EB0F2629806300DA24CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +34,10 @@
 		6396EB162629806400DA24CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6396EB192629806400DA24CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6396EB1B2629806400DA24CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE3342162632B8010001CEB2 /* download.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = download.jpeg; sourceTree = "<group>"; };
+		CE3342172632B8010001CEB2 /* download (1).jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "download (1).jpeg"; sourceTree = "<group>"; };
+		CE3342182632B8010001CEB2 /* download (2).jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "download (2).jpeg"; sourceTree = "<group>"; };
+		CEDDD0912637FEA500160268 /* ScaleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +73,17 @@
 				6396EB0D2629806300DA24CD /* AppDelegate.swift */,
 				6396EB0F2629806300DA24CD /* SceneDelegate.swift */,
 				6396EB112629806300DA24CD /* ViewController.swift */,
+				CEDDD0912637FEA500160268 /* ScaleViewController.swift */,
 				6396EB132629806300DA24CD /* Main.storyboard */,
 				6396EB162629806400DA24CD /* Assets.xcassets */,
 				6396EB182629806400DA24CD /* LaunchScreen.storyboard */,
 				6396EB1B2629806400DA24CD /* Info.plist */,
+				CE3342172632B8010001CEB2 /* download (1).jpeg */,
+				CE3342182632B8010001CEB2 /* download (2).jpeg */,
+				CE3342162632B8010001CEB2 /* download.jpeg */,
+				630DEAD3263BE52C00114A23 /* blog1.jpg */,
+				630DEAD6263BE53C00114A23 /* blog2.jpg */,
+				630DEAD9263BE54400114A23 /* blog3.jpg */,
 			);
 			path = SlideshowApp;
 			sourceTree = "<group>";
@@ -125,8 +146,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				6396EB1A2629806400DA24CD /* LaunchScreen.storyboard in Resources */,
+				CE3342192632B8010001CEB2 /* download.jpeg in Resources */,
+				630DEADA263BE54500114A23 /* blog3.jpg in Resources */,
 				6396EB172629806400DA24CD /* Assets.xcassets in Resources */,
+				CE33421B2632B8010001CEB2 /* download (2).jpeg in Resources */,
+				630DEAD4263BE52D00114A23 /* blog1.jpg in Resources */,
 				6396EB152629806300DA24CD /* Main.storyboard in Resources */,
+				630DEAD7263BE53C00114A23 /* blog2.jpg in Resources */,
+				CE33421A2632B8010001CEB2 /* download (1).jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +167,7 @@
 				6396EB122629806300DA24CD /* ViewController.swift in Sources */,
 				6396EB0E2629806300DA24CD /* AppDelegate.swift in Sources */,
 				6396EB102629806300DA24CD /* SceneDelegate.swift in Sources */,
+				CEDDD0922637FEA500160268 /* ScaleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
