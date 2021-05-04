@@ -9,9 +9,9 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    let images = ["blog1.jpg",
-                  "blog2.jpg",
-                  "blog3.jpg"
+    let images = ["download (1).jpeg",
+                  "download (2).jpeg",
+                  "download.jpeg"
     ]
     
     
