@@ -7,12 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		630DEAD4263BE52D00114A23 /* blog1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 630DEAD3263BE52C00114A23 /* blog1.jpg */; };
-		630DEAD7263BE53C00114A23 /* blog2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 630DEAD6263BE53C00114A23 /* blog2.jpg */; };
-		630DEADA263BE54500114A23 /* blog3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 630DEAD9263BE54400114A23 /* blog3.jpg */; };
-		630DEB00263BF27E00114A23 /* blog1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 630DEAFF263BF27E00114A23 /* blog1.jpg */; };
-		630DEB03263BF28F00114A23 /* blog2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 630DEB02263BF28F00114A23 /* blog2.jpg */; };
-		630DEB06263BF2A000114A23 /* blog3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 630DEB05263BF2A000114A23 /* blog3.jpg */; };
 		6396EB0E2629806300DA24CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6396EB0D2629806300DA24CD /* AppDelegate.swift */; };
 		6396EB102629806300DA24CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6396EB0F2629806300DA24CD /* SceneDelegate.swift */; };
 		6396EB122629806300DA24CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6396EB112629806300DA24CD /* ViewController.swift */; };
@@ -26,12 +20,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		630DEAD3263BE52C00114A23 /* blog1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = blog1.jpg; path = "../../../../Dropbox/■PGM DENTAL画像素材■/blog1.jpg"; sourceTree = "<group>"; };
-		630DEAD6263BE53C00114A23 /* blog2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = blog2.jpg; path = "../../../../Dropbox/■PGM DENTAL画像素材■/blog2.jpg"; sourceTree = "<group>"; };
-		630DEAD9263BE54400114A23 /* blog3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = blog3.jpg; path = "../../../../Dropbox/■PGM DENTAL画像素材■/blog3.jpg"; sourceTree = "<group>"; };
-		630DEAFF263BF27E00114A23 /* blog1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blog1.jpg; sourceTree = "<group>"; };
-		630DEB02263BF28F00114A23 /* blog2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blog2.jpg; sourceTree = "<group>"; };
-		630DEB05263BF2A000114A23 /* blog3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blog3.jpg; sourceTree = "<group>"; };
 		6396EB0A2629806300DA24CD /* SlideshowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideshowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6396EB0D2629806300DA24CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6396EB0F2629806300DA24CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -87,12 +75,6 @@
 				CE3342172632B8010001CEB2 /* download (1).jpeg */,
 				CE3342182632B8010001CEB2 /* download (2).jpeg */,
 				CE3342162632B8010001CEB2 /* download.jpeg */,
-				630DEAD3263BE52C00114A23 /* blog1.jpg */,
-				630DEB05263BF2A000114A23 /* blog3.jpg */,
-				630DEB02263BF28F00114A23 /* blog2.jpg */,
-				630DEAD6263BE53C00114A23 /* blog2.jpg */,
-				630DEAD9263BE54400114A23 /* blog3.jpg */,
-				630DEAFF263BF27E00114A23 /* blog1.jpg */,
 			);
 			path = SlideshowApp;
 			sourceTree = "<group>";
@@ -156,16 +138,10 @@
 			files = (
 				6396EB1A2629806400DA24CD /* LaunchScreen.storyboard in Resources */,
 				CE3342192632B8010001CEB2 /* download.jpeg in Resources */,
-				630DEB03263BF28F00114A23 /* blog2.jpg in Resources */,
-				630DEADA263BE54500114A23 /* blog3.jpg in Resources */,
 				6396EB172629806400DA24CD /* Assets.xcassets in Resources */,
 				CE33421B2632B8010001CEB2 /* download (2).jpeg in Resources */,
-				630DEB00263BF27E00114A23 /* blog1.jpg in Resources */,
-				630DEAD4263BE52D00114A23 /* blog1.jpg in Resources */,
 				6396EB152629806300DA24CD /* Main.storyboard in Resources */,
-				630DEAD7263BE53C00114A23 /* blog2.jpg in Resources */,
 				CE33421A2632B8010001CEB2 /* download (1).jpeg in Resources */,
-				630DEB06263BF2A000114A23 /* blog3.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
