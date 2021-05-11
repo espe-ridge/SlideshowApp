@@ -22,6 +22,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var oNextButton: UIButton!
     @IBOutlet weak var oBackButton: UIButton!
     
+    @IBOutlet weak var startStop: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -53,11 +54,13 @@ class ViewController: UIViewController {
             myTimer = Timer.scheduledTimer(timeInterval: 2.0, target: self, selector: #selector(slideShowAction), userInfo: nil, repeats: true)
             oNextButton.isEnabled = false
             oBackButton.isEnabled = false
+            startStop.setTitle("停止", for: .normal)
         } else {
             myTimer.invalidate()
             myTimer = nil
             oNextButton.isEnabled = true
             oBackButton.isEnabled = true
+            startStop.setTitle("再生", for: .normal)
         }
         
         
@@ -89,6 +92,7 @@ class ViewController: UIViewController {
             oNextButton.isEnabled = true
             oBackButton.isEnabled = true
             scaleVC.imageFile = images[imageIndex]
+            startStop.setTitle("再生/停止", for: .normal)
         }
         // segueから遷移先のResultViewControllerを取得する
         // 遷移先のResultViewControllerで宣言しているx, yに値を代入して渡す
