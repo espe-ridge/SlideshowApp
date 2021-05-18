@@ -92,7 +92,7 @@ class ViewController: UIViewController {
             oNextButton.isEnabled = true
             oBackButton.isEnabled = true
             scaleVC.imageFile = images[imageIndex]
-            startStop.setTitle("再生/停止", for: .normal)
+            startStop.setTitle("再生", for: .normal)
         }
         // segueから遷移先のResultViewControllerを取得する
         // 遷移先のResultViewControllerで宣言しているx, yに値を代入して渡す
