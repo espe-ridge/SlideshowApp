@@ -42,7 +42,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZTO-eh-00G">
                                         <rect key="frame" x="173.5" y="0.0" width="76.5" height="50"/>
-                                        <state key="normal" title="再生/停止"/>
+                                        <state key="normal" title="再生"/>
                                         <connections>
                                             <action selector="playstop:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5gN-i1-KIq"/>
                                         </connections>
